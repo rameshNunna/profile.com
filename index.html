@@ -1,177 +1,509 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title> </title>
-	
-	<link href="css/bootstrap.min.css" rel="stylesheet" >
-	<link href='https://fonts.googleapis.com/css?family=Open Sans' rel='stylesheet'>
-	<link href="css/style.css" rel="stylesheet" type="text/css">
-  </head>
-  <body>
-   <div class="header" id="myHeader">
-<div class="container">
-<div class="row">
-<div class="col-md-3 col-sm-6">
-<div class="logo">
-<a href="#"><img src="images/logo.png" alt=""/>  </a>
-</div>
-</div>
-<div class="col-md-9 col-sm-6">
-<div class="menu-button" onclick="myFunction(this)">
-  <div class="bar1"></div>
-  <div class="bar2"></div>
-  <div class="bar3"></div>
-</div> 
-<div class="navigation">
-<ul>
-<li><a href="index.html">Home </a> </li>
-<li><a href="about.html">About Us </a> </li>
-<li><a href="#">Services </a> </li>
-<li><a href="#">Gallery </a> </li>
-<li><a href="#">Contact Us </a> </li>
-</ul>
-</div>
-</div>
-</div>
-</div>
-   </div>
-   <div class="banner">
-   <div class="container">
-   <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
-  <div class="carousel-indicators">
-    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
-    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
-  </div>
-  <div class="carousel-inner">
-    <div class="carousel-item active" data-bs-interval="10000">
-	<div class="row">
-	<div class="col-md-8 col-6 my-3">
-   <div class="banner-content">
-  <div class="banner-content-in">
-   <h5>The standard Lorem Ipsum passage, used since the 1500s </h5>
-   <h3>Finibus Bonorum et Malorum </h3>
-   <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam,
-   eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. </p>
-   </div>
-   </div>
-   </div>
-   <div class="col-md-4 col-6 my-3">
-   <div class="banner-images">
-   <img src="images/banimg1.png" class="d-block w-100" alt="...">
-   </div>
-   </div>
-    </div>
-    </div>
-    <div class="carousel-item" data-bs-interval="2000">
-      <div class="row">
-	<div class="col-md-8 col-6 my-3">
-   <div class="banner-content">
-   <div class="banner-content-in">
-   <h5>The standard Lorem Ipsum passage, used since the 1500s </h5>
-   <h3>Finibus Bonorum et Malorum </h3>
-   <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam,
-   eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. </p>
-   </div>
-   </div>
-   </div>
-   <div class="col-md-4 col-6 my-3">
-   <div class="banner-images">
-   <img src="images/banimg1.png" class="d-block w-100" alt="...">
-   </div>
-   </div>
-    </div>
-    </div>
-    <div class="carousel-item">
-      <div class="row">
-	<div class="col-md-8 col-6 my-3">
-   <div class="banner-content">
-   <div class="banner-content-in">
-   <h5>The standard Lorem Ipsum passage, used since the 1500s </h5>
-   <h3>Finibus Bonorum et Malorum </h3>
-   <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam,
-   eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. </p>
-   </div>
-   </div>
-   </div>
-   <div class="col-md-4 col-6 my-3">
-   <div class="banner-images">
-   <img src="images/banimg1.png" class="d-block w-100" alt="...">
-   </div>
-   </div>
-    </div>
-    </div>
-  </div>
- <!-- <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Previous</span>
-  </button>
-  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Next</span>
-  </button> -->
-</div>
-   </div>
-   </div>
-   <div class="services-section">
-   <div class="container">
-   <div class="row">
-   <div class="col-md-4 my-3">
-   <div class="service">
-   
-   </div>
-   </div>
-   <div class="col-md-4 my-3">
-   <div class="service">
-   
-   </div>
-   </div>
-   <div class="col-md-4 my-3">
-   <div class="service">
-   
-   </div>
-   </div>
-   </div>
-   </div>
-   
-   </div>
-   <div class="footer-cr">
-   <div class="container">
-   <p>Copyrights Allrights reserved 20024 </p>
-   </div>
-   </div>
-   <!-- menu navigation -->
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
-<script>
-$(document).ready(function(){
-  $(".menu-button").click(function(){
-    $(".navigation").slideToggle();
-  });
-});
-function myFunction(x) {
-  x.classList.toggle("change");
-}
-</script>
-   <script src="js/script.js"  ></script>
-   <script src="js/bootstrap.bundle.min.js"  ></script>
-   <script src="js/bootstrap.min.js"  type="text/js"></script>
-   <!-- animations -->
-   <script type="text/javascript" src="js/aiv.min.js"></script>
-		<script type="text/javascript">;aiv.init()</script>
-		<script>
-			const el = document.getElementById('event_test');
-			el.addEventListener('aiv/in_view', function(){
-				console.log('in_view')
-			});
-			el.addEventListener('aiv/out_of_view', function(){
-				console.log('out_of_view')
-			});
-		</script>
-		
 
-	
-  </body>
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Ramesh Nunna Sr. UX UI Developer Hyderabad</title>
+  <meta content="Ramesh Nunna Sr. UX UI Developer Hyderabad" name="description">
+  <meta content="UI Developer, UX Designer, UI Designer, Html Developer, Webdesigner" name="keywords">
+
+  <!-- Favicons -->
+  
+
+  <!-- Google Fonts -->
+ 
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+
+ 
+</head>
+
+<body>
+
+  <!-- ======= Mobile nav toggle button ======= -->
+  <i class="bi bi-list mobile-nav-toggle d-xl-none"></i>
+
+  <!-- ======= Header ======= -->
+  <header id="header">
+    <div class="d-flex flex-column">
+
+      <div class="profile">
+        <img src="assets/img/profile-img.jpg" alt="" class="img-fluid rounded-circle">
+        <h1 class="text-light"><a href="index.html">Ramesh Nunna</a></h1>
+        <div class="social-links mt-3 text-center">
+          <a href="https://twitter.com/ram9542526001?lang=fa" class="twitter"><i class="bx bxl-twitter"></i></a>
+          <a href="https://www.facebook.com/ramesh.nunna.12/" class="facebook"><i class="bx bxl-facebook"></i></a>
+         
+          <a href="https://in.linkedin.com/in/ramesh-nunna" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+        </div>
+      </div>
+
+      <nav id="navbar" class="nav-menu navbar">
+        <ul>
+          <li><a href="#hero" class="nav-link scrollto active"><i class="bx bx-home"></i> <span>Home</span></a></li>
+          <li><a href="#about" class="nav-link scrollto"><i class="bx bx-user"></i> <span>About</span></a></li>
+          <li><a href="#skills" class="nav-link scrollto"><i class="bx bx-file-blank"></i> <span>Skills</span></a></li>
+          <li><a href="#portfolio" class="nav-link scrollto"><i class="bx bx-book-content"></i> <span>Portfolio</span></a></li>
+         
+          <li><a href="#contact" class="nav-link scrollto"><i class="bx bx-envelope"></i> <span>Contact</span></a></li>
+        </ul>
+      </nav><!-- .nav-menu -->
+    </div>
+  </header><!-- End Header -->
+
+  <!-- ======= Hero Section ======= -->
+  <section id="hero" class="d-flex flex-column justify-content-center align-items-center">
+    <div class="hero-container" data-aos="fade-in">
+      <h1>Ramesh Nunna</h1>
+      <p>I'm <span class="typed" data-typed-items="UX Designer, UI Developer"></span></p>
+    </div>
+  </section><!-- End Hero -->
+
+  <main id="main">
+
+    <!-- ======= About Section ======= -->
+    <section id="about" class="about">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>About</h2>
+          <p>I have 7.0 Years plus Experience in UX UI Development </p>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-4" data-aos="fade-right">
+            <img src="assets/img/profile-img.jpg" class="img-fluid" alt="">
+          </div>
+          <div class="col-lg-8 pt-4 pt-lg-0 content" data-aos="fade-left">
+            <h3>UX Designer &amp; UI Developer.</h3>
+            <div class="fst-italic">
+			<ul>
+             <li>	Excellent experience in coding and development for content-driven large-scale sites </li>
+<li>	Developed a lot of landing pages and micro sites </li>
+<li>	Strong expertise in HTML5, CSS3 and Bootstrap4&5 framework. </li>
+<li>	Strong experise in Photoshop PSD to HTML conversion. </li>
+<li>	Sound knowledge of W3C standards cross-browser compatibility cross-platform testing and coding best practices </li>
+<li>	Outstanding ability to uphold CSS driven development standard </li>
+<li>	Good hands on experience with SASS (SCSS) preprocessing. </li>
+</ul>
+            </div>
+            
+            
+          </div>
+        </div>
+<div class="row">
+              <div class="col-lg-12">
+               <p><strong> Experience Summary: </strong><p>
+			   <ol>
+<li>Recently worked as Sr Ux & UI Developer in <strong>Vcr Business Solutions Now Chaivel IT Solutions Pvt Ltd </strong> Hyderabad. <strong>from 10-02-2022 to 09-12-2022.</strong></li>
+<li>	Previously Worked as Sr Ux & UI Developer in <strong>Creotech solutions Pvt Ltd</strong> Hyderabad <strong>from 27-11-2015 to 15-7-2020.</strong></li>
+<li>	Previously Worked as Web Designer in <strong>Nsoft solutions</strong> Hyderabad <strong>from Jan 2013 to Feb 26 2015.</strong></li>
+</ol>
+<p>
+             <strong> Career Objective:</strong></p>
+			 <p>
+I intend to establish myself as Software Engineer with an integrated business solution provider through a long time commitment, contributing to the company's growth and in turn ensuring personal growth with in the organization. I believe that my technical, functional and communication skills will enable me in facing the challenging career ahead.
+
+            </p>
+
+              </div>
+              
+            </div>
+      </div>
+    </section><!-- End About Section -->
+
+    <!-- ======= Facts Section ======= -->
+    <section id="facts" class="facts">
+      <div class="container">
+
+       
+
+        
+      </div>
+    </section><!-- End Facts Section -->
+
+    <!-- ======= Skills Section ======= -->
+    <section id="skills" class="skills section-bg">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>Skills</h2>
+          <p>I mentioned below my skills of my all experience </p>
+        </div>
+
+        <div class="row skills-content">
+
+          <div class="col-lg-6" data-aos="fade-up">
+
+            <div class="progress">
+              <span class="skill">HTML <i class="val">90%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+
+            <div class="progress">
+              <span class="skill">CSS <i class="val">90%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+
+            <div class="progress">
+              <span class="skill">JavaScript & Jquery <i class="val">65%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+			<div class="progress">
+              <span class="skill">React Js & Typescript (Learning) <i class="val">5%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="5" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+
+          </div>
+
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+
+            <div class="progress">
+              <span class="skill">Bootstrap <i class="val">80%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+
+            <div class="progress">
+              <span class="skill">WordPress/CMS <i class="val">90%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+
+            <div class="progress">
+              <span class="skill">Adobe Photoshop <i class="val">90%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+			<div class="progress">
+              <span class="skill">Adobe XD <i class="val">90%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Skills Section -->
+
+   
+
+    <!-- ======= Portfolio Section ======= -->
+    <section id="portfolio" class="portfolio section-bg">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>Portfolio</h2>
+          <p>here i have mentioned my project details  </p>
+        </div>
+
+        <div class="row" data-aos="fade-up">
+          <div class="col-lg-12 d-flex justify-content-center">
+            <ul id="portfolio-flters">
+              <li data-filter="*" class="filter-active">All </li>
+              <li data-filter=".filter-app">Chaivel IT Solutions</li>
+              <li data-filter=".filter-card">Creotech Solutions</li>
+              <li data-filter=".filter-web">Nsoft Solutions</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="100">
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/portfolio-1.jpg" class="img-fluid" alt="">
+              <div class="portfolio-links">
+                <a href="assets/img/portfolio/portfolio-1.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Chic Spaces is a Interior Designing Web App"><i class="bx bx-plus"></i></a>
+                <a target="blank" href="https://chicspaces.in/" title="More Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/portfolio-2.jpg" class="img-fluid" alt="">
+              <div class="portfolio-links">
+                <a href="assets/img/portfolio/portfolio-2.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Goldenbullindia is a Infrastructure"><i class="bx bx-plus"></i></a>
+                <a href="http://goldenbullindia.com/" title="More Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/portfolio-3.jpg" class="img-fluid" alt="">
+              <div class="portfolio-links">
+                <a href="assets/img/portfolio/portfolio-3.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Choose and Wed is a Matrimonial Web and Mobile App"><i class="bx bx-plus"></i></a>
+                <a target="blank" href="https://chooseandwed.com/" title="More Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+<div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/portfolio-6-8.jpg" class="img-fluid" alt="">
+              <div class="portfolio-links">
+                <a href="assets/img/portfolio/portfolio-6-8.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Choose and Wed is a Matrimonial Web and Mobile App"><i class="bx bx-plus"></i></a>
+                <a target="blank" href="https://play.google.com/store/apps/details?id=com.chaivelapps.choose.and.wed.matrimony" title="More Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+		  <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/portfolio-6-9.jpg" class="img-fluid" alt="">
+              <div class="portfolio-links">
+                <a href="assets/img/portfolio/portfolio-6-9.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Chaivel CRM"><i class="bx bx-plus"></i></a>
+                <a target="blank" href="https://crm.chaivelits.com/login.php" title="More Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/portfolio-4.jpg" class="img-fluid" alt="">
+              <div class="portfolio-links">
+                <a href="assets/img/portfolio/portfolio-4.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Bookwow is Hotel Booking Portal"><i class="bx bx-plus"></i></a>
+                <a href="http://bookwow.in/" title="More Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+<div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/portfolio-6.jpg" class="img-fluid" alt="">
+              <div class="portfolio-links">
+                <a href="assets/img/portfolio/portfolio-6.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Farmaravinda is a resorts bookings portal"><i class="bx bx-plus"></i></a>
+                <a target="blank" href="http://farmaravinda.com/" title="More Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/portfolio-5.jpg" class="img-fluid" alt="">
+              <div class="portfolio-links">
+                <a href="assets/img/portfolio/portfolio-5.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Bethelprayerhouse is a Church Portal"><i class="bx bx-plus"></i></a>
+                <a href="http://bethelprayerhouse.in/" title="More Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/portfolio-6-1.jpg" class="img-fluid" alt="">
+              <div class="portfolio-links">
+                <a href="assets/img/portfolio/portfolio-6-1.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Avevyo is a Content Web App"><i class="bx bx-plus"></i></a>
+                <a target="blank" href="http://avevyo.com/" title="More Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/portfolio-7.jpg" class="img-fluid" alt="">
+              <div class="portfolio-links">
+                <a href="assets/img/portfolio/portfolio-7.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Filmievents is a Entertainment and Events Portal"><i class="bx bx-plus"></i></a>
+                <a href="https://www.youtube.com/c/filmieventschannel" title="More Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+<div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/portfolio-6-2.jpg" class="img-fluid" alt="">
+              <div class="portfolio-links">
+                <a href="assets/img/portfolio/portfolio-6-2.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Creativezzevent is a Events Web App"><i class="bx bx-plus"></i></a>
+                <a target="blank" href="http://creativezzevent.com/" title="More Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/portfolio-8.jpg" class="img-fluid" alt="">
+              <div class="portfolio-links">
+                <a href="assets/img/portfolio/portfolio-8.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Fingoshop.com is a Onlineshopping Portal"><i class="bx bx-plus"></i></a>
+                <a href="" title="More Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+<div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/portfolio-6-3.jpg" class="img-fluid" alt="">
+              <div class="portfolio-links">
+                <a href="assets/img/portfolio/portfolio-6-3.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Earkrathyderabad is a Hospital Web App"><i class="bx bx-plus"></i></a>
+                <a target="blank" href="http://earkrathyderabad.com/" title="More Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/portfolio-9.jpg" class="img-fluid" alt="">
+              <div class="portfolio-links">
+                <a href="assets/img/portfolio/portfolio-9.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Helpinghandshumanity"><i class="bx bx-plus"></i></a>
+                <a target="blank" href="http://helpinghandshumanity.com/" title="More Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+<div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/portfolio-6-4.jpg" class="img-fluid" alt="">
+              <div class="portfolio-links">
+                <a href="assets/img/portfolio/portfolio-6-4.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Manairschools is Educational Web App"><i class="bx bx-plus"></i></a>
+                <a target="blank" href="http://manairschools.com/" title="More Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+		  <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/portfolio-6-5.jpg" class="img-fluid" alt="">
+              <div class="portfolio-links">
+                <a href="assets/img/portfolio/portfolio-6-5.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Vorkbox is Content Web App"><i class="bx bx-plus"></i></a>
+                <a target="blank" href="http://vorkbox.com/" title="More Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+		  <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/portfolio-6-6.jpg" class="img-fluid" alt="">
+              <div class="portfolio-links">
+                <a href="assets/img/portfolio/portfolio-6-6.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Starwomenandchildrenhospital is a Hospital Web App"><i class="bx bx-plus"></i></a>
+                <a target="blank" href="http://starwomenandchildrenhospital.com/" title="More Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+		  <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/portfolio-6-7.jpg" class="img-fluid" alt="">
+              <div class="portfolio-links">
+                <a href="assets/img/portfolio/portfolio-6-7.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Chaivel.com is a Business Portal"><i class="bx bx-plus"></i></a>
+                <a target="blank" href="http://chaivel.com/" title="More Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End Portfolio Section -->
+
+    
+
+   
+
+    <!-- ======= Contact Section ======= -->
+    <section id="contact" class="contact">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>Contact</h2>
+          </div>
+
+        <div class="row" data-aos="fade-in">
+
+          <div class="col-lg-12 d-flex align-items-stretch">
+            <div class="info row">
+			<div class="col-lg-4 mb-3">
+              <div class="address">
+                <i class="bi bi-geo-alt"></i>
+                <h4>Location:</h4>
+                <p>Chintal, Hyderabad, Telangana.</p>
+              </div></div>
+<div class="col-lg-4 mb-3">
+              <div class="email">
+                <i class="bi bi-envelope"></i>
+                <h4>Email:</h4>
+                <p>ramesh.uxui@gmail.com</p>
+              </div></div>
+<div class="col-lg-4 mb-3">
+              <div class="phone">
+                <i class="bi bi-phone"></i>
+                <h4>Call:</h4>
+                <p>+91 9849522069</p>
+              </div></div>
+
+              </div>
+
+          </div>
+
+        <!--  <div class="col-lg-7 mt-5 mt-lg-0 d-flex align-items-stretch">
+            <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+              <div class="row">
+                <div class="form-group col-md-6">
+                  <label for="name">Your Name</label>
+                  <input type="text" name="name" class="form-control" id="name" required>
+                </div>
+                <div class="form-group col-md-6">
+                  <label for="name">Your Email</label>
+                  <input type="email" class="form-control" name="email" id="email" required>
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="name">Subject</label>
+                <input type="text" class="form-control" name="subject" id="subject" required>
+              </div>
+              <div class="form-group">
+                <label for="name">Message</label>
+                <textarea class="form-control" name="message" rows="10" required></textarea>
+              </div>
+              <div class="my-3">
+                <div class="loading">Loading</div>
+                <div class="error-message"></div>
+                <div class="sent-message">Your message has been sent. Thank you!</div>
+              </div>
+              <div class="text-center"><button type="submit">Send Message</button></div>
+            </form>
+          </div> -->
+
+        </div>
+
+      </div>
+    </section><!-- End Contact Section -->
+
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer">
+    <div class="container">
+      
+      
+    </div>
+  </footer><!-- End  Footer -->
+
+ 
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/typed.js/typed.min.js"></script>
+  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
 </html>
